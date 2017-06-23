@@ -1,0 +1,38 @@
+{
+    "name": "vue-image-src",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "gulp dev",
+        "dist": "gulp default"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MMHK/vue-images-src.git"
+    },
+    "keywords": [
+        "vue",
+        "src",
+        "image"
+    ],
+    "author": "Sam",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MMHK/vue-images-src/issues"
+    },
+    "homepage": "https://github.com/MMHK/vue-images-src#readme",
+    "dependencies": {
+        "lodash": "^4.17.4"
+    },
+    "devDependencies": {
+        "browserify": "^14.4.0",
+        "gulp": "^3.9.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sourcemaps": "^2.6.0",
+        "gulp-uglify": "^3.0.0",
+        "gulp-util": "^3.0.8",
+        "vinyl-buffer": "^1.0.0",
+        "vinyl-source-stream": "^1.1.0"
+    }
+}
